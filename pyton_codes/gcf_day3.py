@@ -38,6 +38,7 @@
 
 # #encapsulation   inheritance  abstraction  polymorphism
 # #inheritance
+
 # #example of 1) single inheritance
 # #inheritance allows one class (child) to inherit attribute and methods from another classs (parent)
 # class father():
