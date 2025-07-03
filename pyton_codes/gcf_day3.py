@@ -12,7 +12,6 @@
 
 
 
-
 # # #creating an object
 # # p1=person("alice",20)
 # # p2=person("bob",19)
