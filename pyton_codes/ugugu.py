@@ -1,1 +1,1 @@
-print("piyush madharchod")
+import this
