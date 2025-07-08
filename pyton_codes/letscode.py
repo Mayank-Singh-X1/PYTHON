@@ -15,4 +15,19 @@
 
 #lists
 a=["bicycles","choot","boom"]
-print(a)
+# print(a)
+# print(a[1])
+# print(a[0].title())
+# a[0]="ducati"
+# print(a)
+
+# #inserting element to a
+# a.insert(1,"23")
+# print(a)
+
+# del a[1]
+# print(a)
+
+b=a.pop(0)
+print(b)
+
