@@ -36,3 +36,7 @@ print(sorted (cars,reverse=True))
 print(cars)
 print(cars[-1])
 print(len(cars))
+print(cars[0:2])
+
+for car in cars:
+  print(f"{car.title()}, is a nice car.")
