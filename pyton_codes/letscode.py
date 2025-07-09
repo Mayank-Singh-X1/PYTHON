@@ -28,6 +28,11 @@ a=["bicycles","choot","boom"]
 # del a[1]
 # print(a)
 
-b=a.pop(0)
-print(b)
+# b=a.pop(0)
+# print(b)
 
+cars=["toyota","audi","subaru","bmw"]
+print(sorted (cars,reverse=True))
+print(cars)
+print(cars[-1])
+print(len(cars))
