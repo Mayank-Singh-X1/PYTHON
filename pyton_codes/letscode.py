@@ -51,9 +51,26 @@ cars=["toyota","audi","subaru","bmw"]
 # even=list(range(0,11,2))
 # print(even)
 
-squares=[]
-for i in range(1,11):
-  s=i**2
-  squares.append(s)
+# squares=[]
+# for i in range(1,11):
+#   s=i**2
+#   squares.append(s)
 
-print(squares)
+# print(squares)
+# print(max(squares))
+# print(min(squares))
+# print(sum(squares))
+
+# even_num=[i for i in range(0,10)]
+# print(even_num)
+
+#multiple of 3
+# mulof3=[]
+# for i in range(3,30):
+#   if i%3==0:
+#     mulof3.append(i)
+
+# print(mulof3)
+
+mulof3=[i for i in range(3,30) if i%3==0]
+print(mulof3)
