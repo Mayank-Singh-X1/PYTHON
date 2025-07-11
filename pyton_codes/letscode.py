@@ -32,11 +32,17 @@ a=["bicycles","choot","boom"]
 # print(b)
 
 cars=["toyota","audi","subaru","bmw"]
-print(sorted (cars,reverse=True))
-print(cars)
-print(cars[-1])
-print(len(cars))
-print(cars[0:2])
+# print(sorted (cars,reverse=True))
+# print(cars)
+# print(cars[-1])
+# print(len(cars))
+# print(cars[0:2])
 
-for car in cars:
-  print(f"{car.title()}, is a nice car.")
+# for car in cars:
+#   print(f"{car.title()}, is a nice car.")
+
+for i in range(6):
+  print(i)
+
+list1=list(range(111, 1000, 2))
+print(list1)
