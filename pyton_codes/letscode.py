@@ -41,8 +41,19 @@ cars=["toyota","audi","subaru","bmw"]
 # for car in cars:
 #   print(f"{car.title()}, is a nice car.")
 
-for i in range(6):
-  print(i)
+# for i in range(6):
+#   print(i)
 
-list1=list(range(111, 1000, 2))
-print(list1)
+# list1=list(range(111, 1000, 2))
+# print(list1)
+
+#print even numbers
+# even=list(range(0,11,2))
+# print(even)
+
+squares=[]
+for i in range(1,11):
+  s=i**2
+  squares.append(s)
+
+print(squares)
