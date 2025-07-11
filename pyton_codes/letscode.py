@@ -31,7 +31,6 @@ a=["bicycles","choot","boom"]
 # b=a.pop(0)
 # print(b)
 
-cars=["toyota","audi","subaru","bmw"]
 # print(sorted (cars,reverse=True))
 # print(cars)
 # print(cars[-1])
@@ -72,5 +71,17 @@ cars=["toyota","audi","subaru","bmw"]
 
 # print(mulof3)
 
-mulof3=[i for i in range(3,30) if i%3==0]
-print(mulof3)
+# mulof3=[i for i in range(3,30) if i%3==0]
+# print(mulof3)
+# cars=["toyota","audi","subaru","bmw"]
+# cars.sort()
+# car=cars[:]
+# car.insert(2,"choot")
+# print(car)
+# print(f"The first three items in the list are {cars[:3]}")
+
+#TUPLES
+tup1=("ele1","ele2","ele3","ele4","ele5")
+# tup1=("ele1","ele2","ele3","ele44","ele5")
+# print(tup1)
+
