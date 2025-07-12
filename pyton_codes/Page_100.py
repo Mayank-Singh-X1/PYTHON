@@ -1,2 +1,2 @@
-car="audi"
-print(car.title()=="Audi")
+# car="audi"
+# print(car.title()=="Audi")
