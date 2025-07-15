@@ -29,11 +29,13 @@
 
 #DICTIONARIES
 alien={"color":"green","points":5,"speed":"medium","x_pos":0,"y_pos":10}
-if alien["speed"]=="medium":
-    alien["x_pos"] +=2
+# if alien["speed"]=="medium":
+#     alien["x_pos"] +=2
 
-del alien["points"]
-print(alien)
+# del alien["points"]
+# print(alien)
 
 
+for key in alien:
+    print(f"{key} \n")
 
