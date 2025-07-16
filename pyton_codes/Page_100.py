@@ -66,10 +66,10 @@
 # for i in range(0,100,2):
 #     print(i)
 
-pizza={
-    "crust":"thick",
-    "toppings":["cheese","pepperoni"]
-}
-for i in pizza["toppings"]:
-    print(i)
-print(f"you ordered crust {pizza["crust"]} with toppings {i}")
+# pizza={
+#     "crust":"thick",
+#     "toppings":["cheese","pepperoni"]
+# }
+# for i in pizza["toppings"]:
+#     print(i)
+# print(f"you ordered crust {pizza["crust"]} with toppings {i}")
