@@ -75,12 +75,53 @@
 # print(f"you ordered crust {pizza["crust"]} with toppings {i}")
 
 
-alien1={'color': 'green', 'points': 5}
-alien2={'color': 'hreen', 'points': 5}
-alien3={'color': 'preen', 'points': 5}
+# alien1={'color': 'green', 'points': 5}
+# alien2={'color': 'hreen', 'points': 5}
+# alien3={'color': 'preen', 'points': 5}
 
-aliens=[alien1,alien2,alien3]
+# aliens=[]
 
-for alien in  aliens:
-    print(alien)
+# for i in range(30):
+#     alien={'no':i,'color': 'preen', 'points': 5}
+#     aliens.append(alien)
+
+# for alien in  aliens[0:3]:
+#     if alien['no']==1:
+#         alien['color']='blue'
+# print(aliens)
+
+# favorite_languages = {
+# 'jen': ['python', 'rust'],
+# 'sarah': ['c'],
+# 'edward': ['rust', 'go'],
+# 'phil': ['python', 'haskell'],
+# }
+
+# for name,lang in favorite_languages.items():
+#     print(f"{name} favourite language is ")
+#     for lan in lang:
+#         print(f"{lan}")
+
+
+users = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton',
+        },
+    'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris',
+        },
+    }
+for username, user_info in users.items():
+
+    print(f"\nUsername: {username}")
+
+    full_name = f"{user_info['first']} {user_info['last']}"
+    location = user_info['location']
+    print(f"\tFull name: {full_name.title()}")
+    print(f"\tLocation: {location.title()}")
+
 
