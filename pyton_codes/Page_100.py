@@ -73,3 +73,14 @@
 # for i in pizza["toppings"]:
 #     print(i)
 # print(f"you ordered crust {pizza["crust"]} with toppings {i}")
+
+
+alien1={'color': 'green', 'points': 5}
+alien2={'color': 'hreen', 'points': 5}
+alien3={'color': 'preen', 'points': 5}
+
+aliens=[alien1,alien2,alien3]
+
+for alien in  aliens:
+    print(alien)
+
