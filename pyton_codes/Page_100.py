@@ -133,17 +133,20 @@
 #     rt.remove(3)
 # print(rt)
 
-resp={}
-while True:
-    value=input("enter ur name")
-    age=int(input ("enter ur age"))
+# resp={}
+# while True:
+#     value=input("enter ur name")
+#     age=int(input ("enter ur age"))
 
-    resp[value]=age
-    qqw=input("continur")
-    if qqw=='no':break
+#     resp[value]=age
+#     qqw=input("continur")
+#     if qqw=='no':break
 
-print (resp)
+# print (resp)
+def ani(jaan,naam="kutta"):
+    print(f"{jaan} mst hai {naam}")
 
+ani("boom","chutad")
 
 
 
