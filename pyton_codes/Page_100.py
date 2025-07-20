@@ -123,11 +123,26 @@
 #     print(f"\tFull name: {full_name.title()}")
 #     print(f"\tLocation: {location.title()}")
 
+# while True:
+#     topping=input("enter your toppings:")
+#     if topping=='quit':break;
+
+
+# rt=[1,2,3,3,5,6,2,1,7,3]
+# while 3 in rt:
+#     rt.remove(3)
+# print(rt)
+
+resp={}
 while True:
-    topping=input("enter your toppings:")
-    if topping=='quit':break;
+    value=input("enter ur name")
+    age=int(input ("enter ur age"))
 
+    resp[value]=age
+    qqw=input("continur")
+    if qqw=='no':break
 
+print (resp)
 
 
 
