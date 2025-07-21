@@ -143,10 +143,10 @@
 #     if qqw=='no':break
 
 # print (resp)
-def ani(jaan,naam="kutta"):
-    print(f"{jaan} mst hai {naam}")
+# def ani(jaan,naam="kutta"):
+#     print(f"{jaan} mst hai {naam}")
 
-ani("boom","chutad")
+# ani("boom","chutad")
 
 
 
