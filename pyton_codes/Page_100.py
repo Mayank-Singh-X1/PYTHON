@@ -148,5 +148,10 @@
 
 # ani("boom","chutad")
 
+def bab(name,ahh):
+    cut={'naam':name,'aggh':ahh}
+    return cut
 
+q=bab('color','green')
+print (q)
 
