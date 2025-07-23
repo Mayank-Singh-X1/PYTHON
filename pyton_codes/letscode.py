@@ -85,3 +85,5 @@ tup1=("ele1","ele2","ele3","ele4","ele5")
 # tup1=("ele1","ele2","ele3","ele44","ele5")
 # print(tup1)
 
+def hello():
+    print('hellp')

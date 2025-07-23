@@ -148,10 +148,25 @@
 
 # ani("boom","chutad")
 
-def bab(name,ahh):
-    cut={'naam':name,'aggh':ahh}
-    return cut
+# def bab(name,ahh):
+#     cut={'naam':name,'aggh':ahh}
+#     return cut
 
-q=bab('color','green')
-print (q)
+# q=bab('color','green')
+# print (q)
 
+# def short_message(message):
+#     for mess in message:
+#         print(f"Hello, {mess}")
+# a=["nikita","sakshi","rupali"]
+# short_message(a)
+
+
+# def pizza(*toppings):
+#     print(f"you selected {toppings}")
+# pizza('burger','cheeses')
+# pizza('choot')
+
+import letscode as j
+
+j.hello()
