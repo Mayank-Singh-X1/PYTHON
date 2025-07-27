@@ -16,19 +16,19 @@
 # mydog.rollover()
 # print(mydog.Name)
 
-class restaurants:
-    def __init__(self,restaurant_name, cuisine ):
-        self.name=restaurant_name
-        self.Cuisine=cuisine
+# class restaurants:
+#     def __init__(self,restaurant_name, cuisine ):
+#         self.name=restaurant_name
+#         self.Cuisine=cuisine
 
-    def descibe_restaurant(self):
-        print("Best restaurant in world")
+#     def descibe_restaurant(self):
+#         print("Best restaurant in world")
 
-    def open_restaurant(self):
-        print("Resaturant is open")
+#     def open_restaurant(self):
+#         print("Resaturant is open")
 
-a=restaurants("reyansh","Italinan")
-print(f"name is {a.name} and cuisine is {a.Cuisine}")
+# a=restaurants("reyansh","Italinan")
+# print(f"name is {a.name} and cuisine is {a.Cuisine}")
 
-a.descibe_restaurant()
-a.open_restaurant()
+# a.descibe_restaurant()
+# a.open_restaurant()
