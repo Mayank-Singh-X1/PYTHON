@@ -33,31 +33,31 @@
 # a.descibe_restaurant()
 # a.open_restaurant()
 
-class CAR:
-    def __init__(self, brand, year, color):
-        self.Brand=brand
-        self.Year=year
-        self.Color=color
+# class CAR:
+#     def __init__(self, brand, year, color):
+#         self.Brand=brand
+#         self.Year=year
+#         self.Color=color
 
-    def description(self):
-        print(f"{self.Brand} is manufactured in {self.Year} and coloor is {self.Color}")
-    def mileage(self,run):
-        self.Run=run
-        print(f"Total run is {self.Run}")
+#     def description(self):
+#         print(f"{self.Brand} is manufactured in {self.Year} and coloor is {self.Color}")
+#     def mileage(self,run):
+#         self.Run=run
+#         print(f"Total run is {self.Run}")
 
-class electric(CAR):
-    def __init__(self,brand,year,color):
-        super().__init__( brand, year, color)
+# class electric(CAR):
+#     def __init__(self,brand,year,color):
+#         super().__init__( brand, year, color)
 
-    def __str__(self):
-        return  f"{self.Brand} is manufactured in {self.Year} and coloor is {self.Color}" 
+#     def __str__(self):
+#         return  f"{self.Brand} is manufactured in {self.Year} and coloor is {self.Color}" 
 
-c1=CAR("honda",2024,"biluuu")
-# c1.Brand="hefhje"
-c1.mileage(30)
-c1.description()
+# c1=CAR("honda",2024,"biluuu")
+# # c1.Brand="hefhje"
+# c1.mileage(30)
+# c1.description()
 
 
     
-a3=electric("bomm",343,"neon")
-print(a3)
+# a3=electric("bomm",343,"neon")
+# print(a3)
