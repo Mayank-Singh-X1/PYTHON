@@ -87,29 +87,29 @@
 
 
 #3
-def evaluate_postfix(expression):
-    stack = []
+# def evaluate_postfix(expression):
+#     stack = []
 
-    for char in expression:
-        if char.isdigit():
-            stack.append(int(char))
-        else:
-            b = stack.pop()
-            a = stack.pop()
-            if char == '+':
-                stack.append(a + b)
-            elif char == '-':
-                stack.append(a - b)
-            elif char == '*':
-                stack.append(a * b)
-            elif char == '/':
-                stack.append(a // b)  # Use // for integer division
+#     for char in expression:
+#         if char.isdigit():
+#             stack.append(int(char))
+#         else:
+#             b = stack.pop()
+#             a = stack.pop()
+#             if char == '+':
+#                 stack.append(a + b)
+#             elif char == '-':
+#                 stack.append(a - b)
+#             elif char == '*':
+#                 stack.append(a * b)
+#             elif char == '/':
+#                 stack.append(a // b)  # Use // for integer division
 
-    return stack.pop()
+#     return stack.pop()
 
-expr = "53+62/*"  # ((5+3)*(6/2)) = 8*3 = 24
-print("Postfix Expression:", expr)
-print("Evaluated Result:", evaluate_postfix(expr))
+# expr = "53+62/*"  # ((5+3)*(6/2)) = 8*3 = 24
+# print("Postfix Expression:", expr)
+# print("Evaluated Result:", evaluate_postfix(expr))
 
 
 
