@@ -61,3 +61,10 @@
     
 # a3=electric("bomm",343,"neon")
 # print(a3)
+
+
+class user:
+    def __init__(self,firstname,lastname):
+        self.fname=firstname
+        self.lname=lastname
+        self.attemp_login=0
