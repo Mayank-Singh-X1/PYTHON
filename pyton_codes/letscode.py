@@ -87,3 +87,9 @@ tup1=("ele1","ele2","ele3","ele4","ele5")
 
 def hello():
     print('hellp')
+
+
+from Page_200 import user as us
+
+ab=us("boom","hdi")
+ab.greet()
