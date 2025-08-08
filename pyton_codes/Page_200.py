@@ -68,3 +68,26 @@ class user:
         self.fname=firstname
         self.lname=lastname
         self.attemp_login=0
+        self.max=3
+
+    def greet(self):
+        print(f"Hello {self.fname} {self.lname}")
+
+    def increment_attempt(self):
+        if self.attemp_login<3:
+            self.attemp_login+=1
+            print(f"attempts left {self.max-self.attemp_login}")
+        else:
+            print("you ran out of attempts")
+
+    def dis_attempt(self):
+        print(self.attemp_login)
+
+a=user('madhar','chod')
+a.greet()
+a.increment_attempt()
+a.increment_attempt()
+a.increment_attempt()
+a.increment_attempt()
+
+a.dis_attempt()
