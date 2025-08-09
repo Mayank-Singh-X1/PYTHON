@@ -127,12 +127,10 @@
 # msg=msg.replace('dog','cat')
 # print(msg)
 
-from pathlib import Path
-
-a=Path('pi_digits.txt')
+# from pathlib import Path
+# a=Path('pi_digits.txt')
 # a.write_text("kyu re madharchod!!")
 # b=a.read_text()
-
 
 # contents='hello\n'
 # contents+='world\n'
