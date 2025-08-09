@@ -96,3 +96,10 @@
 # a=raand(l1)
 # print(a)
 
+#files and exceptions
+
+from pathlib import Path 
+
+a=Path('pi_digits.txt')
+content=a.read_text()
+print(content)
