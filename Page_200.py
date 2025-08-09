@@ -98,26 +98,48 @@
 
 #files and exceptions
 
-from pathlib import Path 
+# from pathlib import Path 
 
-a=Path('pi_digits.txt')
-content=a.read_text()
-content=content.strip()
-# print(content)
+# a=Path('pi_digits.txt')
+# content=a.read_text()
+# content=content.strip()
+# # print(content)
 
-lines=content.splitlines()
+# lines=content.splitlines()
 # for line in lines:
 #     print(line)
 
-pi_string=''
-for line in lines:
-    pi_string+=line
+# pi_string=''
+# for line in lines:
+#     pi_string+=line
 
-print(pi_string)
-print(len(pi_string))
-print(pi_string[:4])
+# print(pi_string)
+# print(len(pi_string))
+# print(pi_string[:4])
 
-if '22022005' in pi_string:
-    print("your birthday exists")
-else:
-    print("it doesn't")
+# bb=input("enter your birthday")
+# if bb in pi_string:
+#     print("your birthday exists")
+# else:
+#     print("it doesn't")
+
+# msg='i like dog'
+# msg=msg.replace('dog','cat')
+# print(msg)
+
+from pathlib import Path
+
+a=Path('pi_digits.txt')
+# a.write_text("kyu re madharchod!!")
+# b=a.read_text()
+
+
+# contents='hello\n'
+# contents+='world\n'
+# contents+='qwerty\n'
+# a.write_text(contents)
+# b=a.read_text()
+
+# print(b)
+
+
