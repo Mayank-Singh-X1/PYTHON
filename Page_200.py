@@ -102,4 +102,22 @@ from pathlib import Path
 
 a=Path('pi_digits.txt')
 content=a.read_text()
-print(content)
+content=content.strip()
+# print(content)
+
+lines=content.splitlines()
+# for line in lines:
+#     print(line)
+
+pi_string=''
+for line in lines:
+    pi_string+=line
+
+print(pi_string)
+print(len(pi_string))
+print(pi_string[:4])
+
+if '22022005' in pi_string:
+    print("your birthday exists")
+else:
+    print("it doesn't")
