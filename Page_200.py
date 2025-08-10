@@ -140,4 +140,34 @@
 
 # print(b)
 
-print(5/0)
+# print("enter the number you want to divide")
+# print("enter q to quit")
+
+# while True:
+#     a=input("enter 1st number: ")
+#     if a=='q':
+#         break
+#     b=input("enter 2nd number: ")
+#     if b=='q':
+#         break
+
+    
+#     try:
+#         result=int(a)/int(b)
+#     except ZeroDivisionError:
+#         print("you cant divide numbre by 0")
+#     else:
+#         print(result)
+
+from pathlib import Path
+path=Path('pi_digits.txt')
+try:
+    content=path.read_text()
+except:
+    FileNotFoundError
+    print(f"file {path} deos not exist")
+else:
+    path.write_text('hello\n duniya\n ')
+    words=content.split()
+    wordlen=len(words)
+    print(wordlen)
