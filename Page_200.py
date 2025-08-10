@@ -176,11 +176,10 @@
 #     path=Path(i)
 #     count_words(path)
 
-from pathlib import Path
-import json
+
 
 # numbers=[1,2,3,4,5,6,7]
-# path=Path('numbers.json')
+# path=Path('username.json')
 # content=json.dumps(numbers)
 # path.write_text(content)
 # contents=path.read_text()
@@ -193,3 +192,16 @@ import json
 # name=path.read_text()
 # wer=json.loads(name)
 # print(f"we rememberred you {wer}")
+
+from pathlib import Path
+import json
+path = Path('username.json')
+if path.exists():
+    contents = path.read_text()
+    username = json.loads(contents)
+    print(f"Welcome back, {username}!")
+else:
+    username = input("What is your name? ")
+    contents = json.dumps(username)
+    path.write_text(contents)
+    print(f"We'll remember you when you come back, {username}!")
