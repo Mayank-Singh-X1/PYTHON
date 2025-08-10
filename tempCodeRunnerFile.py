@@ -1,6 +1,4 @@
-    try:
-        result
-    except ZeroDivisionError:
-        print("you cant divide numbre by 0")
-    else:
-        print(result)
+username=input("Enter your name: ")
+# content=json.dumps(username)
+# path.write_text(content)
+# print(f"we will remember you {username}")

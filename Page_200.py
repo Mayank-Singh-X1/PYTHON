@@ -159,15 +159,37 @@
 #     else:
 #         print(result)
 
+# from pathlib import Path
+# def count_words(path):
+   
+#     try:
+#         content=path.read_text()
+#     except FileNotFoundError:
+#        print("file not found")
+#     else:       
+#         words=content.split()
+#         wordlen=len(words)
+#         print(wordlen)
+
+# l1=['pivalue.txt','dfbdj','pi_digits.txt']
+# for i in l1:
+#     path=Path(i)
+#     count_words(path)
+
 from pathlib import Path
-path=Path('pi_digits.txt')
-try:
-    content=path.read_text()
-except:
-    FileNotFoundError
-    print(f"file {path} deos not exist")
-else:
-    path.write_text('hello\n duniya\n ')
-    words=content.split()
-    wordlen=len(words)
-    print(wordlen)
+import json
+
+# numbers=[1,2,3,4,5,6,7]
+# path=Path('numbers.json')
+# content=json.dumps(numbers)
+# path.write_text(content)
+# contents=path.read_text()
+# num=json.loads(contents)
+# print(num)
+# username=input("Enter your name: ")
+# content=json.dumps(username)
+# path.write_text(content)
+# print(f"we will remember you {username}")
+# name=path.read_text()
+# wer=json.loads(name)
+# print(f"we rememberred you {wer}")
